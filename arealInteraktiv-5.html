@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areal Interaktiv 5</title>
+</head>
+
+<body>
+
+    <script>
+
+        let length = prompt("Må jeg bede om længden?"),
+            width =  prompt("Må jeg bede om bredden?"),
+            besked;
+
+        if (Number(width) && Number(length) ){
+            alert("Længde: " +
+                length + " meter\nBredden: " +
+                width + " \meter \nArealet: " +
+                length*width + " kvadratmeter");
+        }
+
+        else{
+            alert("Kan ikke regne det ud!!!")
+        }
+
+        if(confirm("Vil De gerne starte forfra?")){
+            location.reload();
+        }
+
+    </script>
+
+</body>
+</html>

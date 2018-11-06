@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A</title>
+    <style>
+        #box,
+        #bax {
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        button {
+            font-size: 2rem;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <button id="klik">
+        Klik
+    </button>
+    <button id="slet">
+        Slet
+    </button>
+    <button id="html">
+        HTML
+    </button>
+    <button id="slet">
+        Flyt
+    </button>
+    <div id="box"></div>
+    <div id="bax"></div>
+
+    <script>
+
+        const klik = document.QuerySelector("#klik");
+            klik.addEventListener("click", () => {
+            box.textContent = "Klik";
+        });
+
+    </script>
+</body>
+
+</html>
